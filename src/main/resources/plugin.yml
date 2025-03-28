@@ -1,0 +1,8 @@
+name: VCustomEggs
+version: '${project.version}'
+main: org.txtox8729.vcustomeggs.VCustomEggs
+api-version: '1.16'
+
+commands:
+  vcustomeggs:
+    description: основная команда :)
