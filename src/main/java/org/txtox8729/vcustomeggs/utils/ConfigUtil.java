@@ -105,7 +105,6 @@ public class ConfigUtil {
                 continue;
             }
 
-            // Проверяем, есть ли несколько мобов с шансом 100%
             int hundredPercentCount = 0;
             for (MobChance mobChance : eggConfig.mobs) {
                 if (mobChance.chance == 100) {
